@@ -1,0 +1,256 @@
+body{
+	background-image: linear-gradient(to right, #6EE2F5 , #6454F0);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+	text-align: center;
+	padding-bottom: 3px;
+}
+#headings{
+	text-align: center;
+}
+#index_container{
+	width: 300px;
+ 	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#index_container_test{
+	width: auto;
+ 	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 150px;
+  padding-top: 25px;
+}
+
+.temple_names{
+  text-decoration: none;
+}
+
+#info_details_test{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.temple {
+  border-radius: 15px;
+  background: #73AD21;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
+
+.temple_test {
+  border-radius: 15px;
+  background: #73AD21;
+  width: 30%;
+  height: 15%;
+}
+
+#mailTag{
+  text-decoration: none;
+}
+
+
+#skhst{
+	box-sizing: content-box;
+	margin:10px 20px;
+	border-style: solid 0px;
+	padding:10px;
+}
+
+#skhst_test{
+	box-sizing: content-box;
+	margin:10px 20px;
+	border-style: solid 0px;
+	padding:10px;
+	background-color:#8ecc14;
+}
+
+#company_name{
+	text-align: left;
+}
+
+#header-nav{
+	background-color: #3499ff;
+	border-radius: 0;
+	border:0;
+}
+
+#navContainer{
+	margin-left: 30px;
+	height: 60px;
+}
+
+#companyBrand{
+	margin-top: 0px;
+	color: whitesmoke;
+}
+#companyBrand_test{
+	margin-top: 0px;
+	color: whitesmoke;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+@media(min-width: 767px){
+	.colorChanger{
+	color: white;
+  text-decoration-color: red;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	#collapsable-nav{
+	background-color: #3499ff;
+}
+#nav_item_thing{
+  color: #3499ff;
+}
+}
+@media(max-width: 767px){
+	#collapsable-nav{
+		background-color: #6c94f4;
+		border-style: solid ;
+		border-width: 1px;
+		border-color: #306106;
+	}
+  #nav_item_thing{
+  color: blanchedalmond;
+}
+}
+
+
+
+#nav-list{
+	text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3499ff;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#mail{
+	color: whitesmoke;
+  text-decoration: none;
+}
+
+hr{
+ 	margin: 2px;
+ 	border-color: #306106;
+}
+
+
+@keyframes rotater{
+    0%{transform:rotateY(0deg)};
+}
+
+
+#left-top{
+  position: absolute;
+  top: 30px;
+  left:40px;
+  width: 80px;
+  height: 80px;
+
+  background-image: linear-gradient(to left, #274b74 , #8233c5 , #b445c4);
+
+  transform-origin: 100% 40%; 
+  border-bottom-left-radius:50px ;
+  border-top-left-radius: 50px;
+  transform:rotateY(65deg);
+  animation:rotater;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-timing-function: linear;
+}
+
+#left-bottom{
+  position: absolute;
+  top: 110px;
+  left:70px;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to left, #274b74 , #8233c5);
+  transform-origin: 100% 40%; 
+  border-bottom-left-radius:50px ;
+  border-top-left-radius: 50px;
+  transform:rotateY(65deg);
+  animation:rotater;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-timing-function: linear;
+  /*animation-delay: -.5s;*/
+}
+
+#right-top{
+  position: absolute;
+  top: 30px;
+  left:140px;
+  width: 80px;
+  height: 80px;
+
+  background-image: linear-gradient(to right, #274b74 , #8233c5 , #b445c4);
+
+  transform-origin: 0% 100%; 
+  border-bottom-right-radius:50px ;
+  border-top-right-radius: 50px;
+  transform:rotateY(-65deg);
+  animation:rotater;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-timing-function: linear;
+}
+
+#right-bottom{
+  position: absolute;
+  top: 110px;
+  left:140px;
+  width: 50px;
+  height: 50px;
+ background-image: linear-gradient(to right, #274b74 , #8233c5 );
+  transform-origin: 0% 100%; 
+  border-bottom-right-radius:50px ;
+  border-top-right-radius: 50px;
+  transform:rotateY(-65deg);
+  animation:rotater;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-timing-function: linear;
+}
+
+#butterfly {
+	position: relative;
+    width: 200px;
+    height: 200px;
+    perspective: 250px;
+  }
+  
+#body{
+	background-color:  #b445c4;
+	position: absolute;
+	left:120px;
+	top: 10px;
+	width: 20px;
+	height: 160px;
+	border-radius: 10px;
+
+}
