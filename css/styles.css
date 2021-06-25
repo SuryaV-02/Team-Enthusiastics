@@ -1,26 +1,26 @@
 body{
-	background-image: linear-gradient(to right, #6EE2F5 , #6454F0);
-	font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, #6EE2F5 , #6454F0);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h3{
-	text-align: center;
-	padding-bottom: 3px;
+  text-align: center;
+  padding-bottom: 3px;
 }
 #headings{
-	text-align: center;
+  text-align: center;
 }
 #index_container{
-	width: 300px;
- 	display: flex;
+  width: 300px;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 #index_container_test{
-	width: auto;
- 	display: flex;
+  width: auto;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -35,8 +35,8 @@ h3{
 }
 
 #info_details_test{
-	padding-left: 25px;
-	padding-right: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .temple {
   border-radius: 15px;
@@ -59,79 +59,50 @@ h3{
 
 
 #skhst{
-	box-sizing: content-box;
-	margin:10px 20px;
-	border-style: solid 0px;
-	padding:10px;
+  box-sizing: content-box;
+  margin:10px 20px;
+  border-style: solid 0px;
+  padding:10px;
 }
 
 #skhst_test{
-	box-sizing: content-box;
-	margin:10px 20px;
-	border-style: solid 0px;
-	padding:10px;
-	background-color:#8ecc14;
+  box-sizing: content-box;
+  margin:10px 20px;
+  border-style: solid 0px;
+  padding:10px;
+  background-color:#8ecc14;
 }
 
 #company_name{
-	text-align: left;
+  text-align: left;
 }
 
 #header-nav{
-	background-color: #3499ff;
-	border-radius: 0;
-	border:0;
+  background-color: #3499ff;
+  border-radius: 0;
+  border:0;
 }
 
 #navContainer{
-	margin-left: 30px;
-	height: 60px;
+  margin-left: 30px;
+  height: 60px;
 }
 
 #companyBrand{
-	margin-top: 0px;
-	color: whitesmoke;
+  margin-top: 0px;
+  color: whitesmoke;
 }
 #companyBrand_test{
-	margin-top: 0px;
-	color: whitesmoke;
+  margin-top: 0px;
+  color: whitesmoke;
 }
 
 
 .navbar-brand a:hover, .navbar-brand a:focus{
-	text-decoration: none;
+  text-decoration: none;
 }
-
-@media(min-width: 767px){
-	.colorChanger{
-	color: white;
-  text-decoration-color: red;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	}
-	#collapsable-nav{
-	background-color: #3499ff;
-}
-#nav_item_thing{
-  color: #3499ff;
-}
-}
-@media(max-width: 767px){
-	#collapsable-nav{
-		background-color: #6c94f4;
-		border-style: solid ;
-		border-width: 1px;
-		border-color: #306106;
-	}
-  #nav_item_thing{
-  color: blanchedalmond;
-}
-}
-
-
-
 #nav-list{
-	text-align: center;
+  text-align: center;
 }
 .footer {
   position: fixed;
@@ -145,13 +116,13 @@ h3{
 }
 
 #mail{
-	color: whitesmoke;
+  color: whitesmoke;
   text-decoration: none;
 }
 
 hr{
- 	margin: 2px;
- 	border-color: #306106;
+  margin: 2px;
+  border-color: #306106;
 }
 
 
@@ -238,19 +209,102 @@ hr{
 }
 
 #butterfly {
-	position: relative;
+  position: relative;
     width: 200px;
     height: 200px;
     perspective: 250px;
   }
   
 #body{
-	background-color:  #b445c4;
-	position: absolute;
-	left:120px;
-	top: 10px;
-	width: 20px;
-	height: 160px;
-	border-radius: 10px;
+  background-color:  #b445c4;
+  position: absolute;
+  left:120px;
+  top: 10px;
+  width: 20px;
+  height: 160px;
+  border-radius: 10px;
 
+}
+
+
+@media(min-width: 766px){
+  .colorChanger{
+  color: white;
+  text-decoration-color: red;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+  #collapsable-nav{
+  background-color: #3499ff;
+}
+#nav_item_thing{
+  color: #3499ff;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3499ff;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+}
+
+
+@media(max-width: 765px){
+  #collapsable-nav{
+    background-color: #6c94f4;
+    border-style: solid ;
+    border-width: 1px;
+    border-color: #306106;
+  }
+  #nav_item_thing{
+  color: blanchedalmond;
+  }
+
+  #info_details_test{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#index_container_test{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 150px;
+  padding-top: 25px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3499ff;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+#index_container{
+  width: 300px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#img_index_temple_thanjavur_page1,#img_index_temple_thanjavur_page2,#img_index_temple_thanjavur_page3{
+  width: 0px;
+  height: 0px;
+}
+
+#left-top,#left-bottom,#right-top,#right-bottom,#body{
+  height: 0px;
+  width: 0px;
+}
 }
